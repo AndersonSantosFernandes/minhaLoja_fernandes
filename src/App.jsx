@@ -1,14 +1,16 @@
 // import { useState } from 'react'
 
-import './App.css'
+import './App.scss'
+import { Navigation } from './components/navigation/navigation'
 
 export function App() {  
 
-  return (
+  return (  
+   
     <>
-     
-     <h1>Anderson Santos Fernandes</h1>
-     <h3>Aprendendo React JS</h3>
+    
+    <Navigation/>
+    <h1>Minha loja virtual com React JS</h1>
     </>
   )
 }
