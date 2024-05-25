@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 
 import './App.scss'
+import { ItemListContainer } from './components/itemsList/itemList'
 import { Navigation } from './components/navigation/navigation'
 
 export function App() {  
@@ -10,7 +11,8 @@ export function App() {
     <>
     
     <Navigation/>
-    <h1>Minha loja virtual com React JS</h1>
+    <ItemListContainer/>
+      
     </>
   )
 }
