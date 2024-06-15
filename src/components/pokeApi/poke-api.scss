@@ -1,0 +1,55 @@
+
+
+
+.list-container{
+    background-image: linear-gradient(orange, gray);
+    .cada-pokemon{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 15px;
+        // column-gap: 15px;
+        
+        li{
+            width: 150px;
+            height: 200px;
+            margin-left: 15px;
+            border: 1px solid purple;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .button-classe{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+
+        button{
+            width: 150px;
+            border-radius: 12px;
+            padding: 5px;
+            background-image: linear-gradient(orange, gray);
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+   
+}
+
+@media(max-width:420px){
+
+    .poke-card-container{
+        background-image: linear-gradient(orange, rgb(233, 156, 156));
+        width: 100%;
+    
+        img{
+            width: 100%;
+        }
+    
+    }
+}

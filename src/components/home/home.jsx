@@ -1,0 +1,10 @@
+import './home.scss'
+
+
+export function Home(){
+    return(
+        <>
+        <h1>Página Home</h1>
+        </>
+    )
+}

@@ -1,5 +1,6 @@
   
-
+import { Outlet } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { Cart } from '../cart-icon/cart-icon'
 import { Logo } from '../logo/logo'
 import './navigation.scss'
@@ -13,16 +14,18 @@ import './navigation.scss'
                 <Logo/>
             </div>
             <div className="nav-links">
-            <a className="nav-link" href="">Menu 01</a>
-            <a className="nav-link" href="">Menu 02</a>
-            <a className="nav-link" href="">Menu 03</a>
+              <NavLink className="nav-link" to='/home'>Home</NavLink>
+              <NavLink className="nav-link" to='/itemList'>Item lista</NavLink>
+              <NavLink className="nav-link" to='/poke-api'>Pokémons</NavLink>
+            
+          
             </div>
             
             <Cart/>
         </div>
         
         
-        
+        <Outlet />
         </>
     )
   }
