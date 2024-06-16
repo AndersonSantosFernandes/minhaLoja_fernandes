@@ -8,7 +8,8 @@ const [input, setInput] = useState('')
 
     return(
         <>
-        <h1>
+      <div className="item-list-container">
+      <h1>
             Aqui será exibido nosso catálogo de produtos
             </h1>
             <input type="text"
@@ -17,6 +18,7 @@ const [input, setInput] = useState('')
             />
 
             <button  >Executar</button>
+      </div>
        </>
     )
 }

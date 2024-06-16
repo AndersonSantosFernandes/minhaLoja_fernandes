@@ -6,7 +6,6 @@ export function PosLoader(){
 
 <>
 
-<h1>Página carregada</h1>
 <Contando/>
 </>
 
